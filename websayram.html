@@ -708,38 +708,38 @@
             <div class="border-y border-white/5 py-6 bg-black/20 mb-12">
                 <div
                     class="max-w-5xl mx-auto px-4 flex flex-wrap justify-center gap-4 md:gap-6 text-[11px] font-black uppercase tracking-[0.2em] text-slate-300">
-                    <div
-                        class="flex items-center gap-2 bg-white/5 px-4 py-2 rounded-lg border border-white/10 hover:border-cyan-500/50 transition-all cursor-default group">
+                    <div class="flex items-center gap-2 bg-white/5 px-4 py-2 rounded-lg border border-white/10 hover:border-cyan-500/50 transition-all cursor-pointer group"
+                        onclick="openTechInfo('python')">
                         <i
                             class="fa-brands fa-python text-lg text-cyan-500 group-hover:scale-110 transition-transform"></i>
                         <span>PYTHON</span>
                     </div>
-                    <div
-                        class="flex items-center gap-2 bg-white/5 px-4 py-2 rounded-lg border border-white/10 hover:border-cyan-500/50 transition-all cursor-default group">
+                    <div class="flex items-center gap-2 bg-white/5 px-4 py-2 rounded-lg border border-white/10 hover:border-cyan-500/50 transition-all cursor-pointer group"
+                        onclick="openTechInfo('js')">
                         <i
                             class="fa-brands fa-js text-lg text-yellow-500 group-hover:scale-110 transition-transform"></i>
                         <span>JAVASCRIPT</span>
                     </div>
-                    <div
-                        class="flex items-center gap-2 bg-white/5 px-4 py-2 rounded-lg border border-white/10 hover:border-cyan-500/50 transition-all cursor-default group">
+                    <div class="flex items-center gap-2 bg-white/5 px-4 py-2 rounded-lg border border-white/10 hover:border-cyan-500/50 transition-all cursor-pointer group"
+                        onclick="openTechInfo('dotnet')">
                         <i
                             class="fa-solid fa-code text-lg text-purple-500 group-hover:scale-110 transition-transform"></i>
                         <span>C# / .NET</span>
                     </div>
-                    <div
-                        class="flex items-center gap-2 bg-white/5 px-4 py-2 rounded-lg border border-white/10 hover:border-cyan-500/50 transition-all cursor-default group">
+                    <div class="flex items-center gap-2 bg-white/5 px-4 py-2 rounded-lg border border-white/10 hover:border-cyan-500/50 transition-all cursor-pointer group"
+                        onclick="openTechInfo('sql')">
                         <i
                             class="fa-solid fa-database text-lg text-green-500 group-hover:scale-110 transition-transform"></i>
                         <span>SQL SERVER</span>
                     </div>
-                    <div
-                        class="flex items-center gap-2 bg-white/5 px-4 py-2 rounded-lg border border-white/10 hover:border-cyan-500/50 transition-all cursor-default group">
+                    <div class="flex items-center gap-2 bg-white/5 px-4 py-2 rounded-lg border border-white/10 hover:border-cyan-500/50 transition-all cursor-pointer group"
+                        onclick="openTechInfo('tailwind')">
                         <i
                             class="fa-solid fa-palette text-lg text-pink-500 group-hover:scale-110 transition-transform"></i>
                         <span>TAILWIND CSS</span>
                     </div>
-                    <div
-                        class="flex items-center gap-2 bg-white/5 px-4 py-2 rounded-lg border border-white/10 hover:border-cyan-500/50 transition-all cursor-default group">
+                    <div class="flex items-center gap-2 bg-white/5 px-4 py-2 rounded-lg border border-white/10 hover:border-cyan-500/50 transition-all cursor-pointer group"
+                        onclick="openTechInfo('apidev')">
                         <i
                             class="fa-solid fa-plug text-lg text-orange-500 group-hover:scale-110 transition-transform"></i>
                         <span>API DEV</span>
@@ -808,50 +808,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w-full max-w-2xl mx-auto mb-12 px-4">
-                <div
-                    class="flex flex-wrap justify-center gap-x-8 gap-y-4 py-4 border-y border-white/5 bg-white/[0.01] rounded-xl">
 
-                    <div class="tech-pill tech-float flex items-center gap-2 group transition-all duration-300 cursor-pointer"
-                        onclick="openTechInfo('python')" role="button" tabindex="0" aria-label="Python ne işe yarar?">
-                        <i class="fa-brands fa-python text-2xl text-[#FFE873] opacity-80 group-hover:opacity-100"></i>
-                        <span
-                            class="text-[9px] tracking-[0.2em] font-black italic text-slate-500 group-hover:text-white">PYTHON</span>
-                    </div>
-
-                    <div class="tech-pill tech-float2 flex items-center gap-2 group transition-all duration-300 cursor-pointer"
-                        onclick="openTechInfo('dotnet')" role="button" tabindex="0"
-                        aria-label=".NET / C# ne işe yarar?">
-                        <i class="fa-solid fa-code text-2xl text-[#A179DC] opacity-80 group-hover:opacity-100"></i>
-                        <span
-                            class="text-[9px] tracking-[0.2em] font-black italic text-slate-500 group-hover:text-white">C#
-                            / .NET</span>
-                    </div>
-
-                    <div class="tech-pill tech-float3 flex items-center gap-2 group transition-all duration-300 cursor-pointer"
-                        onclick="openTechInfo('html')" role="button" tabindex="0" aria-label="HTML5 ne işe yarar?">
-                        <i class="fa-brands fa-html5 text-2xl text-[#E34F26] opacity-80 group-hover:opacity-100"></i>
-                        <span
-                            class="text-[9px] tracking-[0.2em] font-black italic text-slate-500 group-hover:text-white">HTML5</span>
-                    </div>
-
-                    <div class="tech-pill tech-float4 flex items-center gap-2 group transition-all duration-300 cursor-pointer"
-                        onclick="openTechInfo('sql')" role="button" tabindex="0" aria-label="SQL Server ne işe yarar?">
-                        <i class="fa-solid fa-database text-2xl text-[#00BCFF] opacity-80 group-hover:opacity-100"></i>
-                        <span
-                            class="text-[9px] tracking-[0.2em] font-black italic text-slate-500 group-hover:text-white">SQL
-                            SERVER</span>
-                    </div>
-
-                    <div class="tech-pill tech-float5 flex items-center gap-2 group transition-all duration-300 cursor-pointer"
-                        onclick="openTechInfo('js')" role="button" tabindex="0" aria-label="JavaScript ne işe yarar?">
-                        <i class="fa-brands fa-js text-2xl text-[#F7DF1E] opacity-80 group-hover:opacity-100"></i>
-                        <span
-                            class="text-[9px] tracking-[0.2em] font-black italic text-slate-500 group-hover:text-white">JAVASCRIPT</span>
-                    </div>
-
-                </div>
-            </div>
 
             <div class="flex flex-wrap justify-center gap-4 mb-14 uppercase italic font-black">
                 <a href="https://github.com/ozankaradag" target="_blank" rel="noopener noreferrer"
@@ -2085,7 +2042,6 @@
             });
         }
 
-
         function toggleModal(id) {
             const el = document.getElementById(id);
             if (el) el.classList.toggle('active');
@@ -2096,7 +2052,7 @@
                 title: "PYTHON",
                 color: "text-[#FFE873]",
                 icon: "fa-brands fa-python",
-                desc: "Otomasyon, veri işleme ve hızlı prototip için en güçlü araçlardan biri. Tekrarlayan işleri sisteme bağlar, zamanı geri kazandırır.",
+                desc: "Otomasyon, veri işleme and hızlı prototip için en güçlü araçlardan biri. Tekrarlayan işleri sisteme bağlar, zamanı geri kazandırır.",
                 uses: ["Otomasyon / Bot", "API Entegrasyonu", "Raporlama"],
                 footer: "İş akışını hızlandıran otomasyonlar kurarım."
             },
@@ -2131,6 +2087,22 @@
                 desc: "Arayüzü canlı ve akıcı yapan katman. Mikro etkileşimler, formlar ve kullanıcı deneyimi tarafında farkı hissettirir.",
                 uses: ["UI Etkileşim", "Form Akışları", "Dinamik Bileşen"],
                 footer: "Kullanıcının elini tutan akıcı deneyimler tasarlarım."
+            },
+            tailwind: {
+                title: "TAILWIND CSS",
+                color: "text-pink-500",
+                icon: "fa-solid fa-palette",
+                desc: "Hızlı ve modern arayüz tasarımı için yardımcı program odaklı CSS çerçevesi. Tasarım sürecini hızlandırır ve tutarlı kılar.",
+                uses: ["Hızlı Tasarım", "Responsive Düzen", "Özel Temalar"],
+                footer: "Modern ve hızlı yüklenen tasarımlar için kullanıyorum."
+            },
+            apidev: {
+                title: "API DEV",
+                color: "text-orange-500",
+                icon: "fa-solid fa-plug",
+                desc: "Sistemlerin birbiriyle konuşmasını sağlayan köprüler. Güvenli, hızlı ve ölçeklenebilir API'ler geliştiriyorum.",
+                uses: ["RESTful API", "Entegrasyonlar", "Güvenlik"],
+                footer: "Sistemler arası kesintisiz iletişim sağlarım."
             }
         };
 
